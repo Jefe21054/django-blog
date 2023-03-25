@@ -1,0 +1,44 @@
+.most-read__list {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+	gap: 1.5rem;
+}
+
+.most-read__title {
+	font: 20px;
+	margin-bottom: 1rem;
+}
+
+.most-read__item article {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 1rem;
+}
+
+.most-read-blog__img-cont {
+	grid-column-end: span 2;
+	height: fit-content;
+	display: flex;
+}
+.most-read-blog__content {
+	grid-column-end: span 3;
+}
+
+.most-read-blog__content a {
+	text-decoration: none;
+}
+
+.most-read-blog__img {
+	border-radius: 0.5rem;
+	width: 100%;
+	height: auto;
+	min-height: 102px;
+}
+
+@media (min-width: 1024px) {
+	.most-read__title {
+		font-size: 21px;
+	}
+}

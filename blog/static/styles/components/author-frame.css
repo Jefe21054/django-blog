@@ -1,0 +1,45 @@
+.author-frame{
+  position: relative;
+  background: var(--white-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--grey);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.author-frame::after{
+  content: "";
+  position: absolute;
+  background: var(--red);
+  left: 0;
+  height: 4px;
+  width: 100%;
+  border-radius: .5rem .5rem 0 0;
+  top: 0;
+}
+.author-frame__title{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.author-frame__job{
+  font-size: 14px;
+}
+
+.author-frame .like-buttons{
+  margin-top: 1rem;
+  display: none;
+}
+
+@media  (min-width: 1024px){
+  .author-frame::after{
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+    left: 0;
+  }
+  .author-frame .like-buttons{
+    display: flex;
+  }
+}

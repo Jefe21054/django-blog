@@ -1,0 +1,19 @@
+:root {
+	--body-font: 'Manrope', sans-serif;
+	--title-font: 'Inter', sans-serif;
+
+	--title-color: #273b49;
+	--text-color: #687782;
+	--secondary-color: #8e9ba4;
+
+	--bg-color: #fbfdfe;
+	--white-color: #ffffff;
+	--white-alt: #f9fafb;
+	--grey: #ecf0f3;
+
+	--red: #ed5e76;
+	--yellow: #e5a638;
+	--blue: #62b7f4;
+	--blue-100: #e2f1fd;
+	--blue-500: #1192ee;
+}

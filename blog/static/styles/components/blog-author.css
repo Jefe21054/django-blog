@@ -1,0 +1,11 @@
+.blog-author{
+  display: flex;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  gap: 0.5rem;
+  align-items: center;
+}
+.blog-author__img{
+  border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+a{
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+h1, h2, h3{
+  font-family: var(--title-font);
+  font-weight: 600;
+  color: var(--title-color);
+  line-height: 1.45;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}

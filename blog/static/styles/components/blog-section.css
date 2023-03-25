@@ -1,0 +1,20 @@
+.blog-section__content {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	gap: 2rem;
+}
+
+.blog-section__aside,
+.blog-section__main {
+	grid-column-end: span 10;
+}
+
+@media screen and (min-width: 1024px) {
+	.blog-section__aside {
+		grid-column-end: span 3;
+	}
+
+	.blog-section__main {
+		grid-column-end: span 7;
+	}
+}

@@ -1,0 +1,11 @@
+.section__wrapper {
+	padding: 0 1rem;
+	max-width: 87.5rem;
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	.section__wrapper {
+		padding: 0 1rem;
+	}
+}
