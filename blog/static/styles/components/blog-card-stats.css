@@ -1,0 +1,17 @@
+.blog-card-stats{
+  display: flex;
+  row-gap: 0.5rem;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+  color: var(--secondary-color);
+  margin-bottom: .5rem;
+}
+
+.blog-card-stats__item{
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}

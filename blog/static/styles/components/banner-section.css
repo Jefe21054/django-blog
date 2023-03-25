@@ -1,0 +1,24 @@
+.banner-section {
+	background: var(--grey);
+	margin-bottom: 1rem;
+}
+.banner-section__wrapper {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+	.banner-section {
+		margin-bottom: 2rem;
+	}
+
+	.banner-section__wrapper {
+		padding: 2rem 1rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+		align-items: center;
+	}
+}

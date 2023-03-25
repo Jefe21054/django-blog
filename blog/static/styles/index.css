@@ -1,0 +1,26 @@
+@import './settings/variables.css';
+@import './components/elements.css';
+@import './components/sections.css';
+@import './components/body.css';
+
+@import './components/featured-section.css';
+@import './components/featured-blog-card.css';
+@import './components/blog-author.css';
+@import './components/blog-card-stats.css';
+@import './components/most-read.css';
+@import './components/most-read-blog.css';
+@import './components/last-blogs.css';
+
+@import './components/banner-section.css';
+@import './components/banner-section-content.css';
+@import './components/banner-section-image.css';
+@import './components/blog-section.css';
+@import './components/blog-content.css';
+@import './components/blog-summary.css';
+@import './components/comment-section.css';
+@import './components/create-comment.css';
+@import './components/blog-comment.css';
+@import './components/related-courses.css';
+@import './components/author-frame.css';
+@import './components/author-frame-profile.css';
+@import './components/like-buttons.css';
