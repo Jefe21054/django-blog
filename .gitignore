@@ -71,11 +71,11 @@ cover/
 # Translations
 *.mo
 
+# Django stuff:
+
 # Flask stuff:
 instance/
 .webassets-cache
-
-# Django stuff:
 
 # Scrapy stuff:
 .scrapy
